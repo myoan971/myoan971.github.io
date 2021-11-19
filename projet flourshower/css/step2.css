@@ -1,0 +1,172 @@
+/* -------------------------------------------------------------------------- */
+/*                                    TÊTE                                    */
+/* -------------------------------------------------------------------------- */
+
+header{
+    
+    display: flex;
+    background-color: #284b63;
+    justify-content: space-around;
+    align-items: center;
+    height: 86px;
+} 
+
+.crumbs a{
+    text-decoration: none; 
+    color: white;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    CONTENUT                                */
+/* -------------------------------------------------------------------------- */
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 100%;
+    Height : 301px;
+    width : 100%;
+}
+
+#title p{
+    white-space:pre-line
+}
+/* first paragraphe */
+
+#presentation1{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.texte1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 110%;
+}
+
+.texte1 p{
+    color: #6e757c;
+    white-space: pre-line;
+    font-size: small;
+}
+
+.heart img{
+    max-height: 80%;
+}
+/* second paragraphe */
+
+#presentation2{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.texte2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 110%;
+}
+
+.texte2 p{
+    color: #6e757c;
+    white-space: pre-line;
+    font-size: small;
+}
+
+.preparation img{
+    max-height: 400px;
+
+}
+/* third paragraphe  */
+
+#presentation3{
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.texte3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 110%;
+}
+
+.texte3 p{
+    color: #6e757c;
+    white-space: pre-line;
+    font-size: small;
+}
+
+.heart2 img{
+    max-height: 80%
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    PIED                                    */
+/* -------------------------------------------------------------------------- */
+
+#footerpart1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: 10em;
+    height: 186px;  
+}
+.footer-up{
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+}
+
+.footer-up a {
+    text-decoration: none;
+}
+
+.link{
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+    text-decoration: none;
+}
+
+button{
+    display: inline-block;
+    color:black;
+    background-color: white;
+    border: 2px solid #f2cf78;
+    margin: 4px 2px;
+    padding: 10px 24px;
+    font-size: 12px;
+    height: 36px;
+    width: 150;
+}
+
+#footerpart2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-down{
+    display: flex;
+    justify-content: end;
+}
+.logoreseau img{
+    height: 39px;
+    width: 38px;
+}
+
